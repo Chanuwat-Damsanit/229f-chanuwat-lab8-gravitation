@@ -185,7 +185,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5428902, guid: 04d0bf4be9447154188d86f6e3b8dce9, type: 3}
       propertyPath: m_Mass
-      value: 1
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -624,6 +624,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce24a082ff4df41498a4a61636422607, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  planets: 0
+  orbitSpeed: 1000
 --- !u!1001 &552358820
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -712,7 +714,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 809739045}
   serializedVersion: 4
-  m_Mass: 10
+  m_Mass: 100
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -743,6 +745,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce24a082ff4df41498a4a61636422607, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  planets: 0
+  orbitSpeed: 5000
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
@@ -832,6 +836,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce24a082ff4df41498a4a61636422607, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  planets: 0
+  orbitSpeed: 1000
 --- !u!1 &928242710 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1377197793697218, guid: b4201d402613a4464b35c805dafcca62, type: 3}
@@ -876,6 +882,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce24a082ff4df41498a4a61636422607, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  planets: 0
+  orbitSpeed: 1000
 --- !u!1001 &936596581
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -983,6 +991,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce24a082ff4df41498a4a61636422607, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  planets: 0
+  orbitSpeed: 1000
 --- !u!1001 &1371001251
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1084,6 +1094,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce24a082ff4df41498a4a61636422607, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  planets: 0
+  orbitSpeed: 1000
 --- !u!1001 &1666266564
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1300,7 +1312,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5499024, guid: 84cc3cd234dfc9d4d9d2e92c0eb0af75, type: 3}
       propertyPath: m_Mass
-      value: 1
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1357,6 +1369,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce24a082ff4df41498a4a61636422607, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  planets: 1
+  orbitSpeed: 1000
 --- !u!1 &1871281412 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1856687845478954, guid: ab152f61198d54532ae39108e616ff59, type: 3}
@@ -1401,6 +1415,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce24a082ff4df41498a4a61636422607, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  planets: 0
+  orbitSpeed: 1000
 --- !u!1 &2102256671 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1733945558841920, guid: 300f80108a63f48618cb4a1c8b8c1e86, type: 3}
@@ -1445,6 +1461,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce24a082ff4df41498a4a61636422607, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  planets: 0
+  orbitSpeed: 1000
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
